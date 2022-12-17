@@ -55,18 +55,23 @@ vendor: {
 {
   name: "Product Name",
   // URL for the product, where more information can be found.
+  // Optional
   url: ""
   // TODO: Specify this properly
+  // Optional
   vcs: "",
   # URL where more information about the support policy can be found.
+  // Optional
   policyURL: "https://example.com/support-information",
   // A list of supported versions, which is as per the `eol` dates.
   // This must match one of the latestVersion
   // TODO: Decide between supportedVersions or supportedReleases
+  // Mandatory
   supportedReleases: [
     "5.2.3",
     "4.3.17"
   ],
+  // Optional
   releaseCycles: [
     {
       // Release Cycle Identifier
